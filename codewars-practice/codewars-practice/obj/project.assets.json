@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jaka/Documents/31github/codewars-practice/codewars-practice/codewars-practice.csproj",
+      "projectUniqueName": "/Users/jaka/Projects/31github/codewars-practice/codewars-practice/codewars-practice.csproj",
       "projectName": "codewars-practice",
-      "projectPath": "/Users/jaka/Documents/31github/codewars-practice/codewars-practice/codewars-practice.csproj",
+      "projectPath": "/Users/jaka/Projects/31github/codewars-practice/codewars-practice/codewars-practice.csproj",
       "packagesPath": "/Users/jaka/.nuget/packages/",
-      "outputPath": "/Users/jaka/Documents/31github/codewars-practice/codewars-practice/obj/",
+      "outputPath": "/Users/jaka/Projects/31github/codewars-practice/codewars-practice/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/jaka/.nuget/NuGet/NuGet.Config"

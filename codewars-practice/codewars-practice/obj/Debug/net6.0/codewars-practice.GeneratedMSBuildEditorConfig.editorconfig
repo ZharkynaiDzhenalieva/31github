@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = codewars_practice
-build_property.ProjectDir = /Users/jaka/Documents/31github/codewars-practice/codewars-practice/
+build_property.ProjectDir = /Users/jaka/Projects/31github/codewars-practice/codewars-practice/

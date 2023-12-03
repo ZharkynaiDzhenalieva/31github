@@ -50,23 +50,34 @@ public class Kata
         return null;
     }
 
-    //    Given an array of integers your solution should find the smallest integer.
-    //For example:
-    //Given[34, 15, 88, 2] your solution will return 2
-    //Given[34, -345, -1, 100] your solution will return -345
-    //You can assume, for the purpose of this kata, that the supplied array will not be empty.
+    //    You're writing code to control your town's traffic lights.You need a function to handle each change from green, to yellow, to red, and then to green again.
+    //Complete the function that takes a string as an argument representing the current state of the light and returns a string representing the state the light should change to.
+    //For example, when the input is green, output should be yellow.
 
     //My solution
-      public static int FindSmallestInt(int[] args)
-      {
-            int smallestNumber = args[0];
-            for (int i = 0; i < args.Length; i++)
-            {
-                if (smallestNumber > args[i])
-                    smallestNumber = args[i];
-            }
-            return smallestNumber;
-      }
-    
+
+    public static string UpdateLight(string current)
+    {
+        //Do Some Magic
+
+        if (current == "green")
+        {
+            return "yellow";
+        }
+        if (current == "yellow")
+        {
+            return "red";
+        }
+        if (current == "red")
+        {
+            return "green";
+        }
+
+        return current;
+    }
+
+
+
+
 
 }
